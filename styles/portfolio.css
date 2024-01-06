@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,300;0,600;1,300&family=Rubik+Maps&display=swap');
+
+/* nav related styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    /* flex dile nav er under a ja ja ase ta sob ek line a chole asbe  */
+justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav-tile{
+    color: var(--Dark-01, #181818);
+
+
+font-size: 45px;
+
+font-weight: 800;
+
+}
+
+.orange{
+    color: #FD6E0A;
+}
+
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav  a{
+
+    text-decoration: none;
+    color:  #474747;
+    
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px  35px;
+    /* 1st value ta upre r niche,,, 2nd value ta left r right a */
+
+}
+
