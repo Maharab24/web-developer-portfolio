@@ -109,12 +109,19 @@ nav a {
 
 /* main sectin style */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
 
 /* about section styles */
 .about {
     padding: 130px;
     border-radius: 10px;
-    margin: 130px 200px 130px 200px;
+    margin: 130px 0;
     background: #FFF8F3;
 }
 
@@ -135,5 +142,20 @@ nav a {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 30px;
 
+}
+
+.about-info-container{
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-inf{
+   text-align: center;
+}
+#what-i-do-des{
+    padding: 30px 150px; 
 }
