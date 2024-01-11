@@ -284,3 +284,21 @@ footer{
 .social-link a{
     margin-right: 25px;
 }
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skill-container{
+        flex-direction: column;
+        padding: 5%;
+    }
+    #what-i-do-des{
+        padding: 20px;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+}
